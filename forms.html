@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>forms</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+
+
+        }
+
+        .section1 {
+           padding-bottom: 2rem;
+            text-align: center;
+            background-color: chartreuse;
+            border: 5px solid rgb(224, 4, 4);
+            border-left: 10px solid rgb(42, 1, 1);
+            border-right: 10px solid rgb(42, 1, 1);
+
+        }
+
+        .submitbtn {
+            color: white;
+            width: 10rem;
+            height: 2rem;
+            border-radius: 5px;
+            background-color: orange;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="section1">
+
+
+        <h1 style="color:red;">personal Details</h1><br>
+
+        <form action="">
+            <label for="name">Name</label>
+            <input type="text" name="Name" id="name"> <br><br>
+
+            <label for="pass">password</label>
+            <input type="password" name="pass" id="pass"><br><br>
+
+            <label for="email">E-Mail</label>
+            <input type="email" name="email" id="email"> <br><br>
+
+            <label for="gender">Select you Gender:-</label>
+            <label for="gender">Male</label>
+            <input type="radio" id="gender" name="Select you Gender" value="male">
+            <label for="gender">Female</label>
+            <input type="radio" id="gender" name="Select you Gender" value="female">
+
+            
+            <br> <br>
+
+
+            <label for="contact"> Contact</label>
+            <input type="lel" name="coontact" id="contact">
+
+
+
+            <h1 style="color:red;">Educational Qualifications</h1>
+            <br>
+            <label for="degree">Degree</label>
+            <select name="degree">
+                <option value="select Group">--select Group--</option>
+                <option value="BSC">BE</option>
+                <option value="BSC">BSC</option>
+                <option value="BA">BA</option>
+                <option value="other">other</option>
+            </select>
+            <br><br>
+            <label for="Engineering">Engineering</label>
+            <select name="Engineering" id="Engineering ">
+                <option value="select degree">--select group--</option>
+                <option value="Mechanical">Mechanical</option>
+                <option value="Elecrical">Electrical</option>
+                <option value="computor science">Computor science</option>
+                <option value="EXTC">EXTC</option>
+            </select><br><br>
+
+            <label for="Hobbies">Hobbies :-</label>
+            <label for="Hobbies">Playing Chess</label>
+            <input type="radio" id="Hobbies" name="fav Hobbies" value="Playing Chess">
+            <label for="Hobbies">Reading</label>
+            <input type="radio" id="Hobbies" name="fav Hobbies" value="Reading">
+            <br>
+
+            <h1 style="color:red;">Address</h1>
+            <label for="Address">Address</label>
+            <textarea name="Address" id="Address" rows="4" cols="50"> </textarea><br><br>
+
+            <label for="choose file"> choose file</label>
+            <input type="file" name="choose file" id="choose file"><br><br><br><br>
+
+
+            <button class="submitbtn"><h3>SUBMIT &#x261E</h3></button>
+            
+
+        </form>
+    </div>
+
+</body>
+
+</html>
